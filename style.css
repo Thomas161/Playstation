@@ -68,6 +68,47 @@
   left: 36px;
   top: -10px;
 }
+
+.control_panel {
+  position: absolute;
+  top: 53px;
+  left: 76px;
+  width: 195px;
+  height: 38px;
+}
+#left_joystick {
+  position: absolute;
+  left: 8%;
+  top: 2px;
+  width: 39px;
+  height: 34px;
+  background: #32557f;
+  border-radius: 50%;
+}
+#symbol {
+  position: absolute;
+  left: 44%;
+  top: 11px;
+  width: 16px;
+  height: 16px;
+}
+#right_joystick {
+  position: absolute;
+  left: 71%;
+  top: 2px;
+  width: 39px;
+  height: 34px;
+  background: #32557f;
+  border-radius: 50%;
+}
+#microphone {
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  bottom: 0;
+  left: 41%;
+  background: silver;
+}
 .options {
   position: absolute;
   width: 6px;
@@ -91,27 +132,27 @@
 
 #left_light {
   position: absolute;
-  top: 34px;
+  top: 36px;
   width: 6px;
-  height: 56px;
+  height: 44px;
   background: green;
   left: 181px;
-  transform: rotate(172deg);
+  transform: rotate(170deg);
   border-radius: 10px;
 }
 #right_light {
   position: absolute;
-  top: 33px;
+  top: 36px;
   width: 6px;
-  height: 56px;
+  height: 44px;
   background: red;
   left: 338px;
-  transform: rotate(7deg);
+  transform: rotate(10deg);
   border-radius: 10px;
 }
 
 .touch_pad {
-  border-bottom: 59px solid #fff;
+  border-bottom: 47px solid #fff;
   border-left: 9px solid transparent;
   border-right: 9px solid transparent;
   height: 0;
@@ -119,7 +160,7 @@
   transform: rotate(180deg);
   position: absolute;
   left: 35%;
-  top: 10%;
+  top: 35px;
 }
 .right_arm {
   position: absolute;
