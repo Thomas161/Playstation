@@ -2,7 +2,7 @@
   position: absolute;
   width: 536px;
   height: 50%;
-  background-color: lightseagreen;
+  background-color: rgb(180, 172, 172);
 }
 .shoulder_left {
   position: absolute;
@@ -12,7 +12,7 @@
   top: 25px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background: #000;
+  background: #353935;
 }
 .shoulder_right {
   position: absolute;
@@ -22,7 +22,7 @@
   top: 25px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  background: #000;
+  background: #353935;
 }
 .left_arm {
   position: absolute;
@@ -101,6 +101,8 @@
   top: 2px;
   width: 39px;
   height: 34px;
+  /* transform: translate(-50%, 0);
+  border-radius: 19% / 50%; */
 }
 
 .inside {
@@ -154,6 +156,8 @@
   top: 11px;
   width: 16px;
   height: 16px;
+  border: solid 2px white;
+  border-radius: 50%;
 }
 
 .microphone {
@@ -182,7 +186,7 @@
   background: whitesmoke;
   top: 5px;
   left: 5px;
-  border: solid 1px #000;
+  border: solid 1px #353935;
   border-radius: 31%;
 }
 
@@ -192,11 +196,34 @@
   width: 168px;
   height: 46px;
   background: rgb(29, 29, 229);
+  box-shadow: -1px 3px 10px 2px #0ff;
   left: 178px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
+
+  animation: change 10s infinite;
+}
+@keyframes change {
+  0% {
+    background: rgb(29, 29, 229);
+  }
+  20% {
+    background: rgb(199, 229, 29);
+  }
+  40% {
+    background: rgb(141, 36, 141);
+  }
+  60% {
+    background: rgb(29, 229, 79);
+  }
+  80% {
+    background: rgb(229, 69, 29);
+  }
+  100% {
+    background: rgb(29, 29, 229);
+  }
 }
 
 .touch_pad {
